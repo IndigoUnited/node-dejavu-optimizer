@@ -6,7 +6,7 @@ Benchmarks: [jsperf](http://jsperf.com/oop-benchmark/107)
 
 
 
-# What it does?
+## What it does?
 
 - Improves `$super()`, `$self` and `$static` usage
 - Removes the need for wrappers, improving performance by a great margin
@@ -15,9 +15,9 @@ Benchmarks: [jsperf](http://jsperf.com/oop-benchmark/107)
 - Removes all `$locked` and `$member()` because they are not used in the loose version
 
 
-# Usage
+## Usage
 
-## Node script
+### Node script
 
 There's a simple `nodejs` script located in the `bin` folder.
 If you are optimizing your code for `nodejs` then pass the `--closure` option. This will boost the performance when running code in v8.
@@ -29,12 +29,12 @@ Example usage:
 `node optimizer --closure < file_in.js > file_out.closure.js`
 
 
-## Programmatic
+### Programmatic
 
 To use the `optimizer` programatically, please check `bin/optimizer` for an example.
 
 
-## Tasks
+### Tasks
 
 `dejavu` comes with an `automaton` and `grunt` task.
 
@@ -74,6 +74,6 @@ grunt.initConfig({
 ```
 
 
-## License ##
+## License
 
 Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
