@@ -9,7 +9,7 @@ var path  = require('path');
 var mkdirp = require('mkdirp');
 var utils = require('mout');
 
-var optimizer = require('../optimizer');
+var optimizer = require('../index');
 
 // TODO: don't change to the new automaton syntax for now, otherwise it will conflict with grunt
 //       only do it when we automaton has compatibility with node-task
