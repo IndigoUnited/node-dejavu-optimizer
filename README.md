@@ -1,5 +1,6 @@
-dejavu optimizer
-------
+# dejavu optimizer
+
+**NOTE**: This project is deprecated and is no longer mantained.
 
 The `dejavu` optimizer analyzes your code, making [dejavu](https://github.com/IndigoUnited/dejavu) usages faster.   
 Benchmarks: [jsperf](http://jsperf.com/oop-benchmark/107)
